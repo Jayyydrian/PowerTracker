@@ -4,6 +4,13 @@ SmartEnergy Monitoring application/IoT
 ## Description
 
 ## Technologies Used
+- ESP8266 Microcontroller
+- Arduino C/C++
+- Flutter/Dart
+- MQTT Protocol
+- Firebase Cloud Platform
+- IoT Sensors (ZMPT101B, DHT22)
+- Real-time Database
 
 ## Features
 
