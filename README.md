@@ -1,10 +1,10 @@
 # PowerTracker
 SmartEnergy Monitoring application/IoT
 
-## Description
+## Description:
 - PowerTracker is a smart and easy-to-use app designed to help users monitor their current kilowatt (kW) consumption in real time. It provides clear insights into power usage, helping users understand, manage, and optimize their electricity consumption efficiently.
 
-## Technologies Used
+## Technologies Used:
 - ESP8266 Microcontroller
 - Arduino C/C++
 - Flutter/Dart
@@ -13,7 +13,7 @@ SmartEnergy Monitoring application/IoT
 - IoT Sensors (ZMPT101B, DHT22)
 - Real-time Database
 
-## Features
+## Features:
 
 ### User Functions
 - View real-time electricity usage
@@ -43,15 +43,15 @@ SmartEnergy Monitoring application/IoT
 - Synchronization between IoT device, cloud services, and mobile application
 - Remote access to energy data anytime and anywhere
 
-## Installation Instructions
+## Installation Instructions:
 - Clone the repository: git clone <repo-url> and navigate to the project folder
 - Install dependencies: flutter pub get
 - Add Firebase configuration files (google-services.json for Android, GoogleService-Info.plist for iOS) to their respective folders
 - Update lib/config.dart with your WiFi name, MQTT broker address, username, and password
 - Run the app: flutter run
 
-## Setup
-### Hardware Setup:
+## Setup:
+### Hardware Setup
 
 - Connect relay module to ESP8266 pin D1, DHT22 to D5, ZMPT101B to A0, and HLK-PM01 power supply to AC input
 - Wire the relay to control the AC socket output (get help from an adult for AC wiring)
@@ -59,7 +59,7 @@ SmartEnergy Monitoring application/IoT
 - Update WiFi and MQTT credentials in firmware/smart_plug.ino
 - Upload the code to ESP8266 via USB
 
-### Cloud Setup:
+### Cloud Setup
 
 - Create Firebase project, enable Authentication and Realtime Database, download config files
 - Create HiveMQ Cloud account, create free cluster, and note broker URL, port, username, and password
